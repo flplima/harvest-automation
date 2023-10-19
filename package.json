@@ -1,0 +1,20 @@
+{
+  "name": "harvest-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Felipe Lima",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@octokit/graphql": "^7.0.2",
+    "@octokit/rest": "^20.0.2",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
